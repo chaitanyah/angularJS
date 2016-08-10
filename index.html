@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<body>
+		<h1>Shopping List</h1>
+		<div ng-app="ShoppingCart" ng-controller="addToCart">
+			<input type="textfield" ng-model="shoppingListItem">
+			<input type="submit" value="Add">
+			<ul>{{shoppingList}}</ul>
+		</div>
+	</body>
+</html>
